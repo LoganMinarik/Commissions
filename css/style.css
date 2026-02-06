@@ -4,7 +4,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
 /* Body Styles */
 body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
@@ -161,6 +161,14 @@ footer {
     color: #e6e6e6;
 }
 
+.invertFalse img{
+    filter: invert(0);
+}
+
+.invertTrue img{
+    filter: invert(1);
+}
+
 .squircle {
     display: inline-flex;
     justify-content: center;
@@ -176,9 +184,9 @@ footer {
     transform: translateY(-3px);
 }
 
-.squircle img {
+/*.squircle img {
     filter: invert(1);
-}
+}*/
 
 .squircleCashapp:hover{
     background-color: chartreuse;
@@ -253,7 +261,7 @@ footer {
 
 /* Individual Hover Colors */
 .socialLinkGithub:hover {
-    background-color: #4b4b4b; /* GitHub color */
+    background-color: #000000; /* GitHub color */
 }
 
 .socialLinkLinkedin:hover {
@@ -284,12 +292,30 @@ footer {
 }
 
 .socialLinkCashapp:hover {
-    background-color: chartreuse;
+    background-color: rgba(24, 255, 3, 0.93);
 
 }
 .socialLinkPaypal:hover {
     background-color: darkblue;
 }
+
+.socialLinkEth:hover {
+    background-color: #46588a;
+}
+
+.socialLinkBitcoin:hover {
+    background-color: #ce9500;
+}
+
+.socialLinkUsdc:hover{
+    background-color: #2775ca;
+}
+
+.socialLinkPyusd:hover{
+    background-color: #0071f3;
+
+}
+
 
 body.dark-mode {
     background-color: #121212;
