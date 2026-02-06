@@ -1,5 +1,6 @@
 {
   "dependencies": {
-    "simple-icons": "^16.7.0"
+    "simple-icons": "^16.7.0",
+    "bootstrap-icons": "^1.11.1"
   }
 }
