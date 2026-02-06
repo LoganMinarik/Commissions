@@ -237,6 +237,10 @@ footer {
     background-color: #3be085; /* Contact color */
 }
 
+.socialLinkBlueSky:hover {
+    background-color: cornflowerblue;
+}
+
 body.dark-mode {
     background-color: #121212;
     color: #ffffff;
