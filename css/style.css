@@ -135,6 +135,7 @@ h2 {
     margin-bottom: 1rem;
 }
 
+
 /* Yapping Box Styles */
 .yapping-box {
     background-color: #ffffff;
@@ -144,6 +145,26 @@ h2 {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     text-align: justify;
     transition: background-color 1.5s, color 1.5s;
+}
+
+.floaty {transform: scale(1);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    z-index: 10;
+    transition: transform 0.5s ease, box-shadow 0.5s ease;}
+
+.floaty:hover{
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    z-index: 10;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+
+}
+
+.floaty:not(:hover){
+    transform: scale(1);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    z-index: 10;
+    transition: transform 0.5s ease, box-shadow 0.5s ease;
 }
 
 /* Footer Styles */
